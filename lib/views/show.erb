@@ -5,12 +5,10 @@
   <body>
     <h1>Welcome to The Gossip Project</h1>
 
-    <a href="/gossips/new/">Create New Gossip!</a>
-    <% gossips.each do |gossip| %>
-        <p>
-          <%= gossip.author %><br/>
-          <%= gossip.content %>
-        </p>
-      <% end %>
+    <p>
+      <%= gossip.author %><br/>
+      <%= gossip.content %>
+    </p>
+    <% end %>
   </body>
 </html>

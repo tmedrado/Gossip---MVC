@@ -8,7 +8,7 @@
     <a href="/gossips/new/">Create New Gossip!</a>
     <% gossips.each do |gossip| %>
         <p>
-          <%= gossip.author %><br/>
+          <%= "#{gossip.author} says:"  %><br/>
           <%= gossip.content %>
         </p>
       <% end %>
